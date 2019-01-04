@@ -1,4 +1,7 @@
-puts "Bonjour, quelle est ton année de naissance ?"
+puts "Bonjour, entre un numéro"
 print "> "
-iYear = gets.chomp.to_i
-puts 2017 - iYear
+iNum = gets.chomp.to_i
+
+iNum.times do
+	puts "Salut, ça farte"
+end
