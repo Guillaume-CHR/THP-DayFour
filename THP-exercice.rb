@@ -2,6 +2,6 @@ puts "Bonjour, entre un numéro"
 print "> "
 iNum = gets.chomp.to_i
 
-iNum.times do
-	puts "Salut, ça farte"
+for _iNum in (1..iNum)
+	puts _iNum
 end
