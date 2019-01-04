@@ -4,7 +4,10 @@ iStory = gets.chomp.to_i
 
 puts "Voici la pyramide :"
 for _iStory in (1..iStory) do
-	_iStory.times do
+	(iStory - _iStory).times do
+		print " "
+	end	
+	(_iStory).times do
 		print "#"
 	end
 	puts ""
