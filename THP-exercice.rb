@@ -1,8 +1,7 @@
-puts "Bonjour, entre un nombre"
+puts "Bonjour, quel est ton année de naissance"
 print "> "
-iNum = gets.chomp.to_i
+iYear = gets.chomp.to_i
 
-while iNum >= 0
-	puts iNum
-	iNum = iNum - 1
+for _iNum in (iYear..2017)
+	puts "#{_iNum} : Tu avais #{_iNum - iYear} ans"
 end
